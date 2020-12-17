@@ -1,12 +1,25 @@
 package com.matthias.adenin.tesenca.model;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
-@Builder
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
 @Data
-@Getter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
 public class CompanyDto {
+
+    @Id
+    @GeneratedValue
+    private Long id;
+
     public String taille;
     public String nom;
     public String dirigeant;
