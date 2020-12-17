@@ -1,4 +1,4 @@
-package com.matthias.adenin.tesenca;
+package com.matthias.adenin.tesenca.controller;
 
 import com.matthias.adenin.tesenca.model.CompanyDto;
 import org.springframework.web.bind.annotation.PutMapping;
