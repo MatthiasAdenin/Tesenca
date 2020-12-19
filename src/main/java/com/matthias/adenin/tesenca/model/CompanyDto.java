@@ -31,6 +31,8 @@ public class CompanyDto {
     public String numSiret;
     public String formeJuridique;
     public String numSiren;
+    public String nombreEmployee;
+    public String email;
 
 
 }
